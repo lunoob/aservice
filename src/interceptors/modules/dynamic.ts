@@ -12,7 +12,7 @@ import { isFormData, isPlainObject, getType } from '../../helpers'
  * @param {string} key
  * @returns {any}
  */
-function getDynamicValue (dataObj: Dynamic, key: string) {
+function getDynamicValue (dataObj: Dynamic = {}, key: string) {
     // 判断是否字面量对象
     if (!isPlainObject(dataObj)) {
         throw new TypeError(`expect a plain object, but get ${getType(dataObj)}`)
@@ -26,7 +26,7 @@ function getDynamicValue (dataObj: Dynamic, key: string) {
  * @param {IAxiosRequestConfig} config 请求配置
  * @returns {IAxiosRequestConfig}
  */
-function dynamicInterceptor (config: IAxiosRequestConfig & { dynamic: Dynamic }) {
+function dynamicInterceptor (config: IAxiosRequestConfig) {
     const { data, params, method } = config
 
     // 是否是 FormData 数据
