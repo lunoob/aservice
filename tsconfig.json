@@ -1,0 +1,26 @@
+/* Visit https://aka.ms/tsconfig.json to read more about this file */
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "lib": ["ES2015", "ES2016", "ES2017", "ESNext", "DOM"],
+    "module": "ES2015",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "declaration": true,
+    "outDir": "lib",
+    "removeComments": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipDefaultLibCheck": true,
+    "skipLibCheck": true,
+    "downlevelIteration": true
+  },
+  "include": [
+      "src"
+  ],
+  "ts-node": {
+    "esm": true
+  }
+}

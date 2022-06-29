@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`测试携带参数功能 携带参数是否正确 1`] = `
+Object {
+  "age": "18",
+  "dynamic": 1,
+  "name": "luoob",
+}
+`;
