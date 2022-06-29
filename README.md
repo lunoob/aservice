@@ -3,8 +3,11 @@
 </p>
 
 <p align="center">
-    <a href="https://codecov.io/gh/lunoob/aservice" > 
+    <a href="https://codecov.io/gh/lunoob/aservice"> 
         <img src="https://codecov.io/gh/lunoob/aservice/branch/main/graph/badge.svg?token=94ASUVK46R"/> 
+    </a>
+    <a href="LICENSE"> 
+        <img alt="GitHub" src="https://img.shields.io/github/license/lunoob/aservice" />
     </a>
 </p>
 

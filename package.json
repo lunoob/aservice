@@ -1,6 +1,6 @@
 {
     "name": "a-service",
-    "version": "0.0.21",
+    "version": "0.0.22",
     "description": "a simple library about http service",
     "main": "lib/index.js",
     "scripts": {
@@ -26,6 +26,9 @@
     ],
     "author": "luoob <liutzui@163.com>",
     "license": "MIT",
+    "repository": {
+        "url": "https://github.com/lunoob/aservice"
+    },
     "dependencies": {
         "form-data": "^4.0.0",
         "ramda": "^0.28.0"
