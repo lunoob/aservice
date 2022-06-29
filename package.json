@@ -1,7 +1,7 @@
 {
-    "name": "biteagle-service",
+    "name": "a-service",
     "version": "0.0.21",
-    "description": "http service simple library",
+    "description": "a simple library about http service",
     "main": "lib/index.js",
     "scripts": {
         "build": "tsc-esm",
@@ -24,7 +24,7 @@
         "service",
         "http"
     ],
-    "author": "biteagle <biteagle@yeah.net>",
+    "author": "luoob <liutzui@163.com>",
     "license": "MIT",
     "dependencies": {
         "form-data": "^4.0.0",

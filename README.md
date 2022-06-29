@@ -1,4 +1,4 @@
-# Biteagle-Service
+# A-Service
 
 > 遵循开放封闭原则，对 axios 拓展，增强其功能
 
@@ -9,24 +9,24 @@
 `npm`
 
 ```shell
-npm install axios biteagle-service
+npm install axios a-service
 ```
 
 `yarn`
 
 ```shell
-yarn add axios biteagle-service
+yarn add axios a-service
 ```
 
 `pnpm`
 
 ```shell
-pnpm add axios biteagle-service
+pnpm add axios a-service
 ```
 
 
 
-需要同时安装 axios 和 biteagle-service，因为 biteagle-service 依赖于 axios
+需要同时安装 axios 和 a-service，因为 a-service 依赖于 axios
 
 
 
@@ -60,7 +60,7 @@ pnpm add axios biteagle-service
 1. 创建实例
 
    ```typescript
-   import { createRequest } from 'biteagle-serivce'
+   import { createRequest } from 'serivce'
    
    const http = createRequest({ baseURL: '/api' })
    ```
@@ -72,7 +72,7 @@ pnpm add axios biteagle-service
    ```typescript
    // 请求需要携带的参数
    const params = {
-     name: 'biteagle'
+     name: 'luoob'
    }
    
    // 请求需要的配置，具体请参考 axios 请求配置
@@ -199,7 +199,7 @@ axios 自带的拦截器功能，它的执行顺序是：
 
   
 
-[![jmFyl9.md.png](https://s1.ax1x.com/2022/06/28/jmFyl9.md.png)](https://s1.ax1x.com/2022/06/28/jmFyl9.png)
+[<img src="https://s1.ax1x.com/2022/06/28/jmFyl9.md.png" alt="jmFyl9.md.png"  />](https://s1.ax1x.com/2022/06/28/jmFyl9.png)
 
 
 
@@ -225,15 +225,9 @@ axios 自带的拦截器功能，它的执行顺序是：
 
 
 
-## 旧版本文档
-
-[0.0.20](/docs/0.0.20.md)
-
-
-
 ## 注意
 
-在使用拦截器的时候。axios 本身与 axios 实例两个是独立的，并不会出现继承的情况.
+在使用原生 axios 拦截器的时候。axios 本身与 axios 实例两个是独立的，并不会出现继承的情况.
 
 假如现在在 axios 上注册了一个请求前的拦截器，随后实例化一个 axios 实例 A.
 
