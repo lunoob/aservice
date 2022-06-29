@@ -1,4 +1,12 @@
-# A-Service
+<p align="center">
+    <img width="300px" src="https://s1.ax1x.com/2022/06/29/jmacwt.png" />
+</p>
+
+<p align="center">
+    <a href="https://codecov.io/gh/lunoob/aservice" > 
+        <img src="https://codecov.io/gh/lunoob/aservice/branch/main/graph/badge.svg?token=94ASUVK46R"/> 
+    </a>
+</p>
 
 > 遵循开放封闭原则，对 axios 拓展，增强其功能
 
