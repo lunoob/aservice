@@ -3,7 +3,7 @@
 * @author Luoob
 */
 
-import dynamicInterceptor from '../modules/dynamic'
+import dynamicInterceptor from '../modules/dynamic.js'
 import { AxiosInterceptorOptions } from 'axios'
 import { onRejected, onRequestFulfilled, onResponseFulfilled } from '../../types/interceptor'
 import { IAxios } from '../../types/instance'

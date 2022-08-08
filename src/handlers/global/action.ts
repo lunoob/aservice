@@ -3,8 +3,8 @@
 * @author Luoob
 */
 
-import { state } from './state'
-import { SuccessHandler, ErrorHandler } from '../../types/handler'
+import { state } from './state.js'
+import { SuccessHandler, ErrorHandler } from '../../types/handler.js'
 
 /**
  * 创建成功响应处理器

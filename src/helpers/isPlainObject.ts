@@ -3,8 +3,8 @@
 * @author Luoob
 */
 
-import tostring from './toString'
-import isObjectLike from './isObjectLike'
+import tostring from './toString.js'
+import isObjectLike from './isObjectLike.js'
 
 /**
  * 检测数据类型是否字面量对象

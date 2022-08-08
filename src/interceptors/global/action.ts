@@ -3,7 +3,7 @@
 * @author Luoob
 */
 
-import { state } from './state'
+import { state } from './state.js'
 import { IAxios } from '../../types/instance'
 import { onRequestFulfilled, onRejected, onResponseFulfilled } from '../../types/interceptor'
 import { AxiosInterceptorOptions } from 'axios'

@@ -3,7 +3,7 @@
 * @author Luoob
 */
 
-import { createRequest, createReqInterceptor, carryParamsInterceptor } from '../src'
+import { createRequest, createReqInterceptor, carryParamsInterceptor } from '../esm'
 
 describe('测试携带参数功能', () => {
     test('携带参数是否正确', () => {

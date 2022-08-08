@@ -4,8 +4,8 @@
 */
 
 import FormData from 'form-data'
-import { createRequest, createReqInterceptor } from '../src'
-import { isFormData } from '../src/helpers'
+import { createRequest, createReqInterceptor } from '../esm'
+import { isFormData } from '../esm/helpers'
 
 describe('测试对 FormData 数据的影响', () => {
     test('正常请求是否有影响', () => {

@@ -6,7 +6,7 @@ import {
     deleteResInterceptor,
     clearReqInterceptor,
     clearResInterceptor
-} from '../src'
+} from '../esm'
 
 describe('测试全局请求拦截器功能', () => {
     test('测试请求拦截器是否调用', () => {

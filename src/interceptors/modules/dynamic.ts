@@ -3,8 +3,10 @@
 * @author Luoob
 */
 
+import isFormData from '../../helpers/isFormData.js'
+import isPlainObject from '../../helpers/isPlainObject.js'
+import getType from '../../helpers/toString'
 import { IAxiosRequestConfig, Dynamic } from '../../types/create'
-import { isFormData, isPlainObject, getType } from '../../helpers'
 
 /**
  * 获取动态参数对应的值

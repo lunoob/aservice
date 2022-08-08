@@ -3,7 +3,7 @@
 * @author Luoob
 */
 
-import { createRequest } from '../src'
+import { createRequest } from '../esm'
 
 describe('测试配置', () => {
     test('测试配置覆盖前面的参数', () => {

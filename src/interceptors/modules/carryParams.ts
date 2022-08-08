@@ -4,7 +4,7 @@
 */
 
 import { IAxiosRequestConfig } from '../../types/create'
-import { isFormData, isFunction, isPlainObject } from '../../helpers'
+import { isFormData, isFunction, isPlainObject } from '../../helpers/index.js'
 
 /**
  * 请求拦截器, 创建添加额外的参数

@@ -4,11 +4,11 @@
 */
 
 import axios from 'axios'
-import { useInterceptors, createInterceptor } from './interceptors'
-import { useSuccessHandler, useErrorHandler, createHandler } from './handlers'
+import { useInterceptors, createInterceptor } from './interceptors/index.js'
+import { useSuccessHandler, useErrorHandler, createHandler } from './handlers/index.js'
 import { HttpInsOption, XhrParams, IResponse, Method, IAxiosRequestConfig } from './types/create'
 import { curry } from 'ramda'
-import { reverseRequest } from './helpers'
+import { reverseRequest } from './helpers/index.js'
 
 /**
  * 创建 http 请求实例

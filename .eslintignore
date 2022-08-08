@@ -1,1 +1,4 @@
 lib/
+esm/
+aservice.js
+aservice.min.js

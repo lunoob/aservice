@@ -3,8 +3,8 @@
 * @author Luoob
 */
 
-import { createRequest, createSuccessHandler, deleteSuccessHandler } from '../src'
-import { IResponse } from '../src/types/create'
+import { createRequest, createSuccessHandler, deleteSuccessHandler } from '../esm'
+import { IResponse } from '../esm/types/create'
 
 let http = createRequest({ baseURL: '/' })
 

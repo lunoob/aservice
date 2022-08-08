@@ -12,8 +12,8 @@ import {
     clearErrorHandler,
     clearSuccessHandler,
     deleteErrorHandler
-} from '../src'
-import { IResponse } from '../src/types/create'
+} from '../esm'
+import { IResponse } from '../esm/types/create'
 
 function toEqualResponse (response: IResponse) {
     expect(Object.keys(response)).toEqual(['status', 'message', 'data'])

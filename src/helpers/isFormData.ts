@@ -3,7 +3,7 @@
 * @author Luoob
 */
 
-import tostring from './toString'
+import tostring from './toString.js'
 import FormData from 'form-data'
 
 /**

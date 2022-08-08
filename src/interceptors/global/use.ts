@@ -3,7 +3,7 @@
 * @author Luoob
 */
 
-import { addInstance } from './action'
+import { addInstance } from './action.js'
 import { IAxios } from '../../types/instance'
 import { AxiosInstance } from 'axios'
 

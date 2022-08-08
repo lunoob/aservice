@@ -1,3 +1,6 @@
 lib/
 node_modules/
 coverage/
+esm/
+aservice.js
+aservice.min.js

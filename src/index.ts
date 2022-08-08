@@ -1,4 +1,3 @@
-import { createRequest } from './create'
 // 全局拦截器
 import {
     carryParamsInterceptor,
@@ -23,9 +22,7 @@ import {
     defaultSuccessHandler
 } from './handlers'
 
-export {
-    createRequest
-}
+export * from './create'
 
 export {
     createSuccessHandler,

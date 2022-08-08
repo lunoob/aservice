@@ -3,7 +3,7 @@
 * @author Luoob
 */
 
-import { createRequest } from '../src'
+import { createRequest } from '../esm'
 
 let http = createRequest({ baseURL: '/' })
 

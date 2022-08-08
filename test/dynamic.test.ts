@@ -4,7 +4,7 @@
 */
 
 import FormData from 'form-data'
-import { createRequest, createReqInterceptor } from '../src'
+import { createRequest, createReqInterceptor } from '../esm'
 
 describe('测试动态参数功能', () => {
     test('测试 path 参数是否被替换', () => {

@@ -4,27 +4,11 @@
 */
 
 import carryParamsInterceptor from './modules/carryParams'
-import {
-    addInstance,
-    createRequest,
-    createResponse,
-    deleteRequest,
-    deleteResponse,
-    clearRequest,
-    clearResponse
-} from './global/action'
-import { useInterceptors } from './global/use'
-import { createInterceptor } from './instance'
+
+export * from './global/action.js'
+export * from './global/use.js'
+export * from './instance/index.js'
 
 export {
-    carryParamsInterceptor,
-    useInterceptors,
-    createInterceptor,
-    addInstance,
-    createRequest,
-    createResponse,
-    deleteRequest,
-    deleteResponse,
-    clearRequest,
-    clearResponse
+    carryParamsInterceptor
 }
