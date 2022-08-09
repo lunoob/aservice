@@ -1,8 +1,9 @@
 {
     "name": "a-service",
-    "version": "0.0.23",
+    "version": "0.0.24",
     "description": "a simple library about http service",
-    "main": "aservice.min.js",
+    "main": "aservice.js",
+    "module": "esm/index.js",
     "types": "esm/index.d.js",
     "scripts": {
         "compile": "tsc",
