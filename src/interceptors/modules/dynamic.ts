@@ -3,8 +3,8 @@
 * @author Luoob
 */
 
-import isFormData from '../../helpers/isFormData.js'
-import isPlainObject from '../../helpers/isPlainObject.js'
+import isFormData from '../../helpers/isFormData'
+import isPlainObject from '../../helpers/isPlainObject'
 import getType from '../../helpers/toString'
 import { IAxiosRequestConfig, Dynamic } from '../../types/create'
 

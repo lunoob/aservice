@@ -3,7 +3,7 @@
 * @author Luoob
 */
 
-import tostring from './toString.js'
+import tostring from './toString'
 
 /**
  * 检测数据类型是否 Function

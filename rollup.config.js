@@ -9,10 +9,10 @@ const publicConfig = {
 }
 
 const config = defineConfig({
-    input: './src/index.ts',
+    input: 'src/index.ts',
     output: [
-        { file: './aservice.js', ...publicConfig },
-        { file: './aservice.min.js', ...publicConfig, plugins: [terser()] }
+        { file: 'aservice.js', ...publicConfig },
+        { file: 'aservice.min.js', ...publicConfig, plugins: [terser()] }
     ],
     plugins: [
         nodeResolve(),

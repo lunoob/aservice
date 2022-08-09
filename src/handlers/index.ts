@@ -1,9 +1,9 @@
-export * from './modules/default.js'
+export * from './modules/default'
 
-export * from './modules/errorLog.js'
+export * from './modules/errorLog'
 
-export * from './instance/index.js'
+export * from './instance'
 
-export * from './global/action.js'
+export * from './global/action'
 
-export * from './global/use.js'
+export * from './global/use'

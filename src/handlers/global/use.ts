@@ -3,9 +3,9 @@
 * @author Luoob
 */
 
-import { HandlerAxiosInstance } from '../instance/index.js'
+import { HandlerAxiosInstance } from '../instance'
 import { HttpInsOption } from '../../types/create'
-import { state } from './state.js'
+import { state } from './state'
 import { AxiosError, AxiosResponse } from 'axios'
 
 /**

@@ -3,7 +3,7 @@
 * @author Luoob
 */
 
-import dynamicInterceptor from '../interceptors/modules/dynamic.js'
+import dynamicInterceptor from '../interceptors/modules/dynamic'
 
 function reverseRequest (handlers: any[]) {
     const defaultList = [dynamicInterceptor]

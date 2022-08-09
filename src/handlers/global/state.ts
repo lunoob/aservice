@@ -4,7 +4,7 @@
 */
 
 import { ErrorHandler, SuccessHandler } from '../../types/handler'
-import { defaultSuccessHandler, defaultErrorHandler } from '../modules/default.js'
+import { defaultSuccessHandler, defaultErrorHandler } from '../modules/default'
 
 interface State {
     _successCode: number
